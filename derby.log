@@ -1,0 +1,301 @@
+----------------------------------------------------------------
+Thu Jan 13 07:49:02 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/7fcb8cc2-a523-435f-b22c-d60d502ce3f3 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:52:37 IST 2022:
+Shutting down instance a816c00e-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/7fcb8cc2-a523-435f-b22c-d60d502ce3f3 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:52:39 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 0ddd00a9-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/b7826bcc-5127-483b-8592-88041da15141 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:52:39 IST 2022:
+Shutting down instance 0ddd00a9-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/b7826bcc-5127-483b-8592-88041da15141 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:52:42 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 0b198144-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/d4713b50-9eec-4266-89fd-ad0890cdf13c with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:52:43 IST 2022:
+Shutting down instance 0b198144-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/d4713b50-9eec-4266-89fd-ad0890cdf13c with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:52:46 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance cfcc41df-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/4a081a3c-3f6a-4b8b-8388-0c79449bdacb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:52:46 IST 2022:
+Shutting down instance cfcc41df-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/4a081a3c-3f6a-4b8b-8388-0c79449bdacb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:52:46 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 8bf5427a-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/4a081a3c-3f6a-4b8b-8388-0c79449bdacb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:52:49 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance e493c27b-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/6e763f8a-214e-4360-b286-ae56702c9c3a with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:52:49 IST 2022:
+Shutting down instance e493c27b-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/6e763f8a-214e-4360-b286-ae56702c9c3a with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:52:52 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 9859c316-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/941993f5-6954-43d8-9a5a-40f42a8a2ec1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:52:52 IST 2022:
+Shutting down instance 9859c316-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/941993f5-6954-43d8-9a5a-40f42a8a2ec1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:52:57 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 339603b1-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/13e49039-7ba7-4d50-b809-44e4829e245c with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:52:57 IST 2022:
+Shutting down instance 339603b1-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/13e49039-7ba7-4d50-b809-44e4829e245c with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:53:01 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance e648844c-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/8976f964-af95-4d64-88e9-3a2e8ddb10c4 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:53:01 IST 2022:
+Shutting down instance e648844c-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/8976f964-af95-4d64-88e9-3a2e8ddb10c4 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:53:10 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance e07144e7-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/f5e6b95b-4ce9-4b2a-8c3b-40f8f8151a20 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:57:16 IST 2022:
+Shutting down instance e07144e7-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/f5e6b95b-4ce9-4b2a-8c3b-40f8f8151a20 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:57:18 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 52104582-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/2c039ff4-f7fb-4b2f-a783-aed49ec86de7 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:57:22 IST 2022:
+Shutting down instance 52104582-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/2c039ff4-f7fb-4b2f-a783-aed49ec86de7 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:57:24 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 6b25861d-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/c2d6612a-bca8-48df-8787-b088d962ea6d with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:57:33 IST 2022:
+Shutting down instance 6b25861d-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/c2d6612a-bca8-48df-8787-b088d962ea6d with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:57:35 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 5bb106b8-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/33845c65-7c39-4cfb-9d12-dc46cfeb9d5a with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:57:38 IST 2022:
+Shutting down instance 5bb106b8-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/33845c65-7c39-4cfb-9d12-dc46cfeb9d5a with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:57:39 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 53b2c753-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/fa0ecb94-e82e-4da9-b845-7e4cac7fdb1e with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:57:41 IST 2022:
+Shutting down instance 53b2c753-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/fa0ecb94-e82e-4da9-b845-7e4cac7fdb1e with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:57:43 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 832ac7ee-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/a56770dc-88d0-4a73-8230-769da6758300 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:57:53 IST 2022:
+Shutting down instance 832ac7ee-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/a56770dc-88d0-4a73-8230-769da6758300 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:57:55 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 1a190889-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/0bb7f32e-20ed-4aa1-93c0-600560c51956 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:57:55 IST 2022:
+Shutting down instance 1a190889-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/0bb7f32e-20ed-4aa1-93c0-600560c51956 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:58:04 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 487d8924-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/dba3ae4b-f901-48db-9e90-2055c0a427d7 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:58:15 IST 2022:
+Shutting down instance 487d8924-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/dba3ae4b-f901-48db-9e90-2055c0a427d7 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:58:17 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 3e5849bf-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/5f6dfea3-8fec-49e5-b15f-e785eeda8d2a with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 07:59:29 IST 2022:
+Shutting down instance 3e5849bf-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/5f6dfea3-8fec-49e5-b15f-e785eeda8d2a with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Thu Jan 13 07:59:31 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 2ba94a5a-017e-513b-34bd-000009dae9b0 
+on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/e3e235ff-3ad7-4d87-8a32-816317a10594 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/battlegod/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot
+os.name=Linux
+os.arch=amd64
+os.version=4.19.84-microsoft-standard
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jan 13 08:06:35 IST 2022:
+Shutting down instance 2ba94a5a-017e-513b-34bd-000009dae9b0 on database directory memory:/mnt/x/wsl/Ubuntu/Test/Java/demo-spring-boot/e3e235ff-3ad7-4d87-8a32-816317a10594 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
