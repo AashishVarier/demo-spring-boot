@@ -6,8 +6,11 @@ import com.demo.demospringboot.model.CrudModel;
 import com.demo.demospringboot.service.CrudService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -31,9 +34,24 @@ public class CrudController {
         return crudService.replyMsg();
     }
 
+    // Read a return specific msg
+    @GetMapping("/msg/{id}")
+    public CrudModel getMsg(@PathVariable Integer id ){  
+        return crudService.getMsg(id);
+    }
+
     // Update
+    @PutMapping("/msg/{id}")
+    public void updateMsg(@RequestBody CrudModel crudModel, @PathVariable Integer id ){  
+        crudService.updateMsg(crudModel, id);
+    }
+
 
     // Delete
+    @DeleteMapping("/msg/{id}")
+    public void delMsg( @PathVariable Integer id ){  
+        crudService.delMsg(id);
+    }
 
 
 }

@@ -4,20 +4,20 @@ public class CrudModel {
 
 
 
-    int id;
+    Integer id;
 
     String msg;
 
 
-    public CrudModel(int id, String msg) {
+    public CrudModel(Integer id, String msg) {
         this.id = id;
         this.msg = msg;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
     public String getMsg() {
