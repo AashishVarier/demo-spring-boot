@@ -1,18 +1,23 @@
 package com.demo.demospringboot.service;
 
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.demo.demospringboot.controller.CrudController;
-import com.demo.demospringboot.model.CrudModel;
 
+import com.demo.demospringboot.model.CrudModel;
+import com.demo.demospringboot.repository.demoCrudRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
 @Service
 public class CrudService {
+
+    @Autowired
+    private demoCrudRepository crudrepo;
 
     private List<CrudModel> crudList = new ArrayList (
             Arrays.asList(
