@@ -1,6 +1,7 @@
 package com.demo.demospringboot.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.demo.demospringboot.model.CrudModel;
 import com.demo.demospringboot.service.CrudService;
@@ -36,7 +37,7 @@ public class CrudController {
 
     // Read a return specific msg
     @GetMapping("/msg/{id}")
-    public CrudModel getMsg(@PathVariable Integer id ){  
+    public Optional<CrudModel> getMsg(@PathVariable Integer id ){  
         return crudService.getMsg(id);
     }
 

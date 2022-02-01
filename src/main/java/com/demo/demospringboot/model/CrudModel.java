@@ -11,6 +11,10 @@ public class CrudModel {
     private Integer id;
     private String msg;
 
+    public CrudModel() { 
+        
+    }
+
     //Constructor for intializing them variables
     public CrudModel(Integer id, String msg) {
         this.id = id;
