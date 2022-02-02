@@ -2,7 +2,7 @@ package com.demo.demospringboot.service;
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
@@ -19,12 +19,12 @@ public class CrudService {
     @Autowired
     private demoCrudRepository crudrepo;
 
-    private List<CrudModel> crudList = new ArrayList (
-            Arrays.asList(
-                new CrudModel(1 , "hello"),
-                new CrudModel(2 , "HI")
-        )
-    );
+    // private List<CrudModel> crudList = new ArrayList (
+            // Arrays.asList(
+                // new CrudModel(1 , "hello"),
+                // new CrudModel(2 , "HI")
+        // )
+    // );
 
 //    Read
     public List<CrudModel> replyMsg (){
@@ -57,7 +57,7 @@ public void updateMsg(CrudModel crudModel, Integer id ){
     // }
     crudrepo.save(crudModel);
 }
-
+//Delete
 public void delMsg(Integer id) {
     crudrepo.deleteById(id);
     // Delete Arralit
