@@ -6,6 +6,7 @@ import java.util.Optional;
 import com.demo.demospringboot.model.CrudModel;
 import com.demo.demospringboot.service.CrudService;
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +37,14 @@ public class CrudController {
     // Read and return a List
     @GetMapping("/msg")
     public List<CrudModel> replyMsg (){
+        logger.trace("trace form get");
+        logger.info("info form get");
+        logger.warn("warn form get");
+        logger.error("error form get", crudService.replyMsg());
+
+
         return crudService.replyMsg();
+        
     }
 
     // Read a return specific msg
@@ -49,7 +57,7 @@ public class CrudController {
     @PutMapping("/msg/{id}")
     public void updateMsg(@RequestBody CrudModel crudModel, @PathVariable Integer id ){  
         crudService.updateMsg(crudModel, id);
-        logger.info("PUT");
+        
     }
 
 
