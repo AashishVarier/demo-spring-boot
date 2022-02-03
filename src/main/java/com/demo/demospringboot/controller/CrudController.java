@@ -37,6 +37,7 @@ public class CrudController {
     // Read and return a List
     @GetMapping("/msg")
     public List<CrudModel> replyMsg (){
+        logger.debug("Debug from egt");
         logger.trace("trace form get");
         logger.info("info form get");
         logger.warn("warn form get");
