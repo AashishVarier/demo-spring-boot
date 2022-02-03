@@ -2,13 +2,16 @@ package com.demo.demospringboot.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
 @Entity //annotation tells JPA that this table needs to be created / this is a table
 public class CrudModel {
 
+    @Transient //Specifies that the property or field is not persistent. It is used to annotate a property or field of an entity class, mapped superclass, or embeddable class. Becasue I dont want logger as a column in table.
     Logger logger = LoggerFactory.getLogger(CrudModel.class);  //Looger and LoggerFactory are from slf4j lib
 
     @Id //annotation for primary key

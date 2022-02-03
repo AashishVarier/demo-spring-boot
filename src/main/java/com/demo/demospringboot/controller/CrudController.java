@@ -49,6 +49,7 @@ public class CrudController {
     @PutMapping("/msg/{id}")
     public void updateMsg(@RequestBody CrudModel crudModel, @PathVariable Integer id ){  
         crudService.updateMsg(crudModel, id);
+        logger.info("PUT");
     }
 
 
