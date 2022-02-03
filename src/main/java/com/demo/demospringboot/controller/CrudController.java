@@ -6,6 +6,8 @@ import java.util.Optional;
 import com.demo.demospringboot.model.CrudModel;
 import com.demo.demospringboot.service.CrudService;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,6 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CrudController {
+    
+    Logger logger = LoggerFactory.getLogger(CrudController.class); //Looger and LoggerFactory are from slf4j lib
 
     @Autowired
     private CrudService crudService;

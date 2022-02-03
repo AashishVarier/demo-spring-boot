@@ -9,12 +9,16 @@ import java.util.Optional;
 import com.demo.demospringboot.model.CrudModel;
 import com.demo.demospringboot.repository.demoCrudRepository;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
 @Service
 public class CrudService {
+
+    Logger logger = LoggerFactory.getLogger(CrudService.class);  //Looger and LoggerFactory are from slf4j lib
 
     @Autowired
     private demoCrudRepository crudrepo;
