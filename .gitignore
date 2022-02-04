@@ -4,7 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 derby.log
-
+!**/src/log/
 
 ### STS ###
 .apt_generated
