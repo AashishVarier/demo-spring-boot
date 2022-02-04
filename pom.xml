@@ -17,34 +17,34 @@
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
+		<dependency> <!-- for easier DB quering -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		<dependency>
+		<dependency> <!-- to use REST API-->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<dependency>
+		<dependency> <!-- for reload -->
       		<groupId>org.springframework.boot</groupId>
       		<artifactId>spring-boot-devtools</artifactId>
       		<scope>runtime</scope>
       		<optional>true</optional>
     	</dependency>
 		
-		<dependency>
+		<dependency> <!-- fembedded RDBMS -->
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derby</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
+		<dependency> <!-- has slf4j + logback -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
+		<dependency> <!-- for monitoring of app -->
         	<groupId>org.springframework.boot</groupId>
         	<artifactId>spring-boot-starter-actuator</artifactId>
     	</dependency>

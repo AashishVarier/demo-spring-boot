@@ -20,9 +20,9 @@ public class CrudService {
 
     Logger logger = LoggerFactory.getLogger(CrudService.class);  //Looger and LoggerFactory are from slf4j lib
 
-    @Autowired
+    @Autowired //for Dependency injection
     private demoCrudRepository crudrepo;
-
+    // Dynamic ArrayList
     // private List<CrudModel> crudList = new ArrayList (
             // Arrays.asList(
                 // new CrudModel(1 , "hello"),
@@ -41,12 +41,14 @@ public class CrudService {
     public void addMsg(CrudModel crudModel) {
        crudrepo.save(crudModel);
     }
+
 // Read one value
     public Optional<CrudModel> getMsg(Integer id) {
-    //    return crudList.stream().filter(t -> t.getId().equals(id)).findFirst().get();    // predicate + lamda expresion in Java 8
+    //    return crudList.stream().filter(t -> t.getId().equals(id)).findFirst().get();    //used to update to ArrayList . predicate + lamda expresion in Java 8
         return crudrepo.findById(id);
 
     }
+
 //Update
 public void updateMsg(CrudModel crudModel, Integer id ){
     // update to Arraylist
@@ -64,7 +66,7 @@ public void updateMsg(CrudModel crudModel, Integer id ){
 //Delete
 public void delMsg(Integer id) {
     crudrepo.deleteById(id);
-    // Delete Arralit
+    // Delete Arralist
     // crudList.removeIf(t -> t.getId().equals(id));
     // Above Java predicate code does the below stuff
     // for (int i = 0 ; i< crudList.size(); i++){

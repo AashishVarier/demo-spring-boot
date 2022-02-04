@@ -19,12 +19,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-@RestController
+@RestController //@Controller + @ResponseBody (@ResponseBody = method return value should be bound to the webresponse body)
 public class CrudController {
     
     Logger logger = LoggerFactory.getLogger(CrudController.class); //Looger and LoggerFactory are from slf4j lib
 
-    @Autowired
+    @Autowired //for Dependency injection
     private CrudService crudService;
     
     //Create
@@ -37,11 +37,13 @@ public class CrudController {
     // Read and return a List
     @GetMapping("/msg")
     public List<CrudModel> replyMsg (){
-        logger.debug("Debug from egt");
-        logger.trace("trace form get");
-        logger.info("info form get");
-        logger.warn("warn form get");
-        logger.error("error form get", crudService.replyMsg());
+
+
+        logger.debug("Debug from get"); // seen from when logging.level.root = DEBUG in application.properties ie: not seen when logging.level.root = TRACE or INFO or WARN or ERROR
+        logger.trace("trace form get"); //seen from when logging.level.root = DEBUG or TRACE in application.properties ie: not seen when logging.level.root =  INFO or WARN or ERROR
+        logger.info("info form get"); //seen  from when logging.level.root = DEBUG or TRACE or INFO in application.properties ie: not seen when logging.level.root = WARN or ERROR 
+        logger.warn("warn form get"); //seen  from when logging.level.root = DEBUG or TRACE or INFO or WARN in application.properties ie: not seen when logging.level.root = ERROR
+        logger.error("error form get", crudService.replyMsg()); //seen from when logging.level.root = DEBUG or TRACE or INFO or WARN or ERROR in application.properties
 
 
         return crudService.replyMsg();
