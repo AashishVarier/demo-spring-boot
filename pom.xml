@@ -26,14 +26,14 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<dependency> <!-- for reload -->
+		<dependency> <!-- for live reload -->
       		<groupId>org.springframework.boot</groupId>
       		<artifactId>spring-boot-devtools</artifactId>
       		<scope>runtime</scope>
       		<optional>true</optional>
     	</dependency>
 		
-		<dependency> <!-- fembedded RDBMS -->
+		<dependency> <!-- embedded RDBMS -->
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derby</artifactId>
 			<scope>runtime</scope>

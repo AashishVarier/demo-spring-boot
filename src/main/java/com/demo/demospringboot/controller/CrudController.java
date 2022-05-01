@@ -53,12 +53,14 @@ public class CrudController {
     // Read a return specific msg
     @GetMapping("/msg/{id}")
     public Optional<CrudModel> getMsg(@PathVariable Integer id ){  
+        logger.error("error form get", crudService.getMsg(id));
         return crudService.getMsg(id);
     }
 
     // Update
     @PutMapping("/msg/{id}")
     public void updateMsg(@RequestBody CrudModel crudModel, @PathVariable Integer id ){  
+        logger.error("error from put");
         crudService.updateMsg(crudModel, id);
         
     }
