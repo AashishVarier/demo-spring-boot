@@ -1,6 +1,7 @@
 package com.demo.demospringboot.service;
 
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 // import java.util.Arrays;
 import java.util.List;
@@ -32,20 +33,48 @@ public class CrudService {
 
 //    Read
     public List<CrudModel> replyMsg (){
+
+        try {
+            
         List<CrudModel> crudList = new ArrayList<>();
         crudrepo.findAll().forEach(crudList::add);
         return crudList;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return List.of();
+            
+        }
+
     }
 
 // Create
     public void addMsg(CrudModel crudModel) {
-       crudrepo.save(crudModel);
+
+        try {
+            
+            crudrepo.save(crudModel);
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+            //TODO: handle exception
+        }
+       
     }
 
 // Read one value
     public Optional<CrudModel> getMsg(Integer id) {
     //    return crudList.stream().filter(t -> t.getId().equals(id)).findFirst().get();    //used to update to ArrayList . predicate + lamda expresion in Java 8
+        
+    try {
+
         return crudrepo.findById(id);
+
+    } catch (SQLException e) {
+        e.printStackTrace();
+        //TODO: handle exception
+    }
+    
 
     }
 
@@ -61,11 +90,30 @@ public void updateMsg(CrudModel crudModel, Integer id ){
         // }
 
     // }
-    crudrepo.save(crudModel);
+
+    try {
+        
+        crudrepo.save(crudModel);
+
+    } catch (SQLException e) {
+        e.printStackTrace();
+        //TODO: handle exception
+    }
+    
 }
 //Delete
 public void delMsg(Integer id) {
-    crudrepo.deleteById(id);
+
+
+    try {
+            
+        crudrepo.deleteById(id);
+
+    } catch (SQLException e) {
+        e.printStackTrace();
+        //TODO: handle exception
+    }
+
     // Delete Arralist
     // crudList.removeIf(t -> t.getId().equals(id));
     // Above Java predicate code does the below stuff

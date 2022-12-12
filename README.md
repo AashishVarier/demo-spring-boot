@@ -9,7 +9,22 @@
 
 - Monitoring
 	- spring-boot-actuator : includes a number of additional features to help for monitor and manage your application when you push it to production. By default on /acuator/health enabled for v.2 
+
+- TDD 
+	- Junit as it is, is good for simple test.
+	- To test conditions such as - network, database, timeout, or other I/O error conditions, Mockito is the tool which works well with JUnit 5.
+	- Test Driven Dev for CRUD with JUnit5 + Mockito 
+	  - Test if create happening
+	  - Test if read happening
+	  - Test if update happening
+	  - Test if delete happening
+	  
 - pending	
-	- Testing {to try out TDD with JUnit5 + Mockito }
+	
 	- Documentation {Spring REST Docs}
 	- Thymeleaf
+
+
+- TODO
+	- changed crudServices to handle error. Need to check and rectify them
+	- Add Mock test in crudServiceTest class
